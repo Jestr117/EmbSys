@@ -9,7 +9,7 @@
 
     @return Prints to screen the statistics
 */
-void print_statistics(unigned char median, unsigned char mean, unsigned char max, unsigned char min);
+void print_statistics(unsigned char* element, unsigned int size);
 
 /*
     @brief Prints the contents of an array
